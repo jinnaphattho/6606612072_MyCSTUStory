@@ -3,10 +3,12 @@ body {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    padding-top: 80px;
     background-color: #f4f4f4;
   }
   
   .container {
+    max-width: 1200px; 
     width: 85%;
     margin: auto;
     overflow: hidden;
@@ -18,18 +20,28 @@ body {
     padding-top: 30px;
     min-height: 70px;
     border-bottom: 3px solid #F7F6F5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
   
   header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 17px;
+    transition: color 0.5s ease;
   }
+
+  header a:hover {
+    color: #705ec4;
+}
   
   header ul {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
   
   header li {
@@ -37,18 +49,19 @@ body {
     display: inline;
     padding: 0 20px;
   }
-  
+
+  header nav {
+    float: right;
+    margin-top: 0;
+    padding: 20px 0;
+  }
+
   header #mainly {
     float: left;
   }
   
   header #mainly h1 {
     margin: 0;
-  }
-  
-  header nav {
-    float: right;
-    margin-top: 10px;
   }
   
   #showcase {
@@ -62,11 +75,6 @@ body {
   #showcase h1 {
     font-size: 50px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-  
-  #showcase p {
-    font-size: 20px;
-    padding: 0;
   }
   
   #main {
