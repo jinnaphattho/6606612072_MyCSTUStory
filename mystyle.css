@@ -10,7 +10,6 @@ body {
   .container {
     width: 85%;
     margin: auto;
-    overflow: hidden;
   }
   
   header {
@@ -79,7 +78,6 @@ body {
   #main {
     margin-top: 10px;
     padding: 0;
-    background: #c9b4df;
     color: #6b2465;
     text-align: left;
   }
@@ -137,12 +135,6 @@ body {
     flex-wrap: wrap;
     margin-top: 20px;
   }
-  
-  .more-text {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-  }
 
 main {
     padding: 20px;
@@ -158,7 +150,7 @@ main h1 {
 
 section {
     background-color: #d5cbe6; 
-    margin: 20px 0;
+    margin: 20px 0px;
     padding: 40px;
     border-radius: 8px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
